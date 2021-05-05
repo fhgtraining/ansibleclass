@@ -9,6 +9,6 @@
       state: touch
 
   - name: Add line in file
-      lineinfile:
-      path: /root/testfile.txt
+    lineinfile:
+      psath: /root/testfile.txt
       line: Ansible was here...
